@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="product.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                      <!-- </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>-->
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">Search
+                        </a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/></svg>
+                            <span class="badge bg-primary badge-pill">24</span>
+                        </a>
+                    </div>
+
+                </div> 
+              </nav>
+
+        </div>
+
+    </section> 
+    <section class="product_detail py-5 my-5" id="product_detail">
+        <div class="container">
+            <div class="section_title text_center mb-5">
+                <h1 class="text-capitalize">product detail</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <!-- <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="data:image/jpeg;base64,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" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                </ol> -->
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://m.media-amazon.com/images/I/813NPCEr-pL._UX466_.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://4.imimg.com/data4/RQ/WI/MY-2366923/hoddies-500x500.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <!-- <div id="carouselExampleIndicators" class="carousel slide shadow rounded" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-50 img img-fluid rounded" width="15px" alt="">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-100 img img-fluid rounded" alt="">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-100 img img-fluid rounded" alt="">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="d-block w-100 img img-fluid rounded" alt="">
+                                    </div> 
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title mb-4">
+                                <h3>BlueDenim Shirt</h3>
+                            </div>
+                            <div class="category mb-4">
+                                <span class="bg-light-gray p-2"><a href="category.html">SHIRT</a></span>
+                            </div>
+                            <div class="rating d-flex text-danger mb-4">                                
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star low-star"></i>
+                                <i class="far fa-star low-star"></i>
+                            </div>
+                            <div class="price mb-4">
+                                <b><span class="mr-1">Rs.</span><span>400</span></b>
+                            </div>
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repellendus quaerat, recusandae soluta et est laboriosam natus excepturi nostrum in repudiandae minus consequuntur nemo eveniet mollitia eligendi maiores, accusantium blanditiis.</p>
+                            </div>
+                            <div class="qty_section border-top pt-2 mb-4">
+                                <label for="">Quantity</label>
+                                <div>
+                                    <div class="mb-0 w-100">
+                                        <input class="quantity text-center" min="0" max="10" type="number" name="quantity" id="" value="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- related products -->
+    <section class="related_products py-5 my-5" id="related_products">
+        <div class="container">
+        <div class="title">
+            <h3>Related Products</h3>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 col-6">
+                <div class="border border-dark rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img class="img img-fluid" src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" alt="">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="border border-dark rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" class="img img-fluid" alt="">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="border border-dark rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img class="img img-fluid" src="http://cdn.shopify.com/s/files/1/0035/1309/0115/products/Organic-Cotton-Hoodie-Jade-Green-1.jpg?v=1632498845" alt="">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer_section pt-5 pb-2" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="" width="150px" class="img img-fluid" alt=""></a>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, impedit nulla cumque possimus temporibus voluptatem quisquam esse voluptates. Commodi explicabo vel nihil deleniti ullam aliquid enim sapiente tenetur iure voluptatem!
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javascript:;">Get Coupon</a></li>
+                                <li><a href="contactus.html">Contact US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Woman Cloths</a></li>
+                                <li><a href="javascript:;">Fashion Accessories</a></li>
+                                <li><a href="javascript:;">Man Accessories</a></li>
+                                <li><a href="javascript:;">Rubber made Toys</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright @2020 All tights reserved</h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a href="#top" id="button" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+     <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+</body>
+</html>
